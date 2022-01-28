@@ -5,9 +5,14 @@
 }
 body{
     background-color: rgba(204, 204, 204, 0.918);
+    height: 100vh;
     
 }
+main{
+    height: 100%;
+}
 .nav {
+width:100%;
 text-align: center;
 padding: 20px 0;
 
@@ -16,16 +21,17 @@ padding: 20px 0;
     display: inline-block;
     list-style: none;
 }
+.nav ul{
+    width:100%;
+}
 .nav a{
     text-decoration: none;
-    margin-left: 10rem;
+    margin-left: 5rem;
     font-size: 45px;
-    color: black;
     height: 100%;
     display: inline-block;
     transition: all;
     color: #000;
-    margin: 6vh 2vh;
     padding: 3px;
     background-color: #cddafd;
     border-radius: 15px;
@@ -40,7 +46,7 @@ header{
     background-color: #b37848; 
     background-image: url('https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2018/06/piantao-3.jpg?fit=2800%2C1867&ssl=1');
     height:20vh;
-    background-position: 0% 60%;
+    background-position: 20% 60%;
 }
 h1{
     font-size: 70px;
@@ -52,7 +58,7 @@ h1{
     
 }
 footer{
-   position: absolute;
+   position: relative;
    bottom:0;
    background-color: #f4a261;
     padding: 20px ;
@@ -69,12 +75,58 @@ footer div{
     margin: auto;
     display: inline-block;
 }
-main section{
-width: 40%;
-margin: auto;
-}
+
 section img{
     width: 100%;
 }
+.form{
+    font-size: 30px;
+    margin-top: 10vh;
+    height: 70%;
+}
+.form div{
+    margin: auto;
+    width: 400px;
+    height: 300px;
+}
+.form label{  
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    margin-top: 20px;  
+}
+.form input{
+    width: 55%;
+    float: right;
+    margin-top: 26px;
+    height: 25px;
+}
+#submit{
+    width: 20%;
+    height: 11%;
+}
+main > .img-container{
+    width: 60%;
+    height: 50%;
+    overflow: hidden;
+    float: right;
+    margin:30px 60px 0 0;
+
+}
+.img1{
+    width: 100%;
+}
+.text-container{
+    height: 100%;
+display: inline-block;
+width: 30%;
+margin: 20px 0 0 20px;
+font-size: 20px;
+overflow: hidden;
+background-color: rgb(122, 165, 230);
+}
+
+
+
 
 
