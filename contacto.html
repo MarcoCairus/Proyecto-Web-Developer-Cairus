@@ -23,11 +23,17 @@
     </header>
     <main>
 <form class="form">
-    <label>Nombre<input type="text" placeholder="Nombre" name="nombre"></label><br>
-    <label>Apellido<input type="text" placeholder="Apellido" name="apellido"></label><br>
-    <label>Email<input type="mail" placeholder="Email" name="email"></label><br>
-    <label>Comentario<input type="text" placeholder="Comentario" name="comentario"></label><br>
-    <input type="submit" value="Enviar">
+    <div>    
+        <label for="nombre">Nombre</label>
+        <input type="text" placeholder="Nombre" name="nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" placeholder="Apellido" name="apellido">
+        <label for="email">Email</label>
+        <input type="mail" placeholder="Email" name="email">
+        <label for="comentario">Comentario</label>
+        <input type="text" placeholder="Comentario" name="comentario"> 
+        <input id="submit" type="submit" value="Enviar">      
+    </div>
 </form>
     </main>
     <footer>
