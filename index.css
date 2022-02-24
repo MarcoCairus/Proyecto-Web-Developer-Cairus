@@ -51,12 +51,13 @@ h1{
     
 }
 footer{
-   position: absolute;
-   bottom:0;
+   position:initial; 
    background: linear-gradient(to right, blue, red);
     padding: 20px ;
     width: 100%;
 }
+
+
 footer a{
     margin: 0 0 0 16px;
     text-decoration: none;
@@ -75,5 +76,18 @@ margin: auto;
 section img{
     width: 100%;
 }
+    main div{
+        width: 90%;
+        border: solid 2px #000;
+        margin: 15px auto;
+    }
+
+    @media(min-width:768px){
+        main div{
+            width: 45%;
+            margin: 15px 10px;
+            display: inline-block;
+        }
+    }
 
 
