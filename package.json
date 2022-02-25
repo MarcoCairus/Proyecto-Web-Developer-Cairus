@@ -1,0 +1,25 @@
+{
+  "name": "desarrollo-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/compilados.scss css/compilados.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoCairus/Proyecto-Web-Developer-Cairus.git"
+  },
+  "author": "Marco Cairus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoCairus/Proyecto-Web-Developer-Cairus/issues"
+  },
+  "homepage": "https://github.com/MarcoCairus/Proyecto-Web-Developer-Cairus#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
